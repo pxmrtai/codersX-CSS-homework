@@ -1,0 +1,67 @@
+*{margin: 0;    padding: 0; font-family: Arial, Helvetica, sans-serif;}
+
+i.fa.fa-question-circle-o {
+    font-size: 20px;
+    padding: 10px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    /* justify-content: space-between; */
+}
+
+li {
+    text-decoration: none;
+    color: white;
+    font-size: 10px;
+    padding: 10px 10px 10px 10px;
+    /* justify-content: space-between; */
+}
+
+.logo-beTheme {
+    font-size: 20px;
+    padding: 10px;
+}
+
+b {
+    color: #0089f7;
+    font-size: 20px;
+}
+
+.main-menu {
+    flex-grow: 1;
+    display: flex;
+    color: white;
+    justify-content: center;
+    list-style: none;
+    text-decoration: none;
+}
+
+.menu-top {
+    display: flex;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    background-color: #09080e;
+}
+.image-cover{
+    background: url('https://themes.muffingroup.com/be/splash/assets/images/be_500_main.jpg') no-repeat center #09080e;
+    width: 100%;
+    background-size: contain;
+    background-position: center;
+    height: 100%;
+}
+
+body,html{height: 100%;}
+.be {
+    padding: 0 13px;
+    border: 4px solid #fff;
+}
+.wrapper{
+    position: relative;
+    box-sizing: border-box;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
