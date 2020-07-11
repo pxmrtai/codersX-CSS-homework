@@ -1,5 +1,70 @@
 *{margin: 0;    padding: 0; font-family: Arial, Helvetica, sans-serif;}
 
+ul.list-useful {
+    padding-top: 60px;
+}
+
+.title {
+    /* margin-bottom: 60px; */
+    font-weight: bold;
+}
+
+
+
+.header {
+    margin: 10px;
+    font-weight: bold;
+}
+
+.useful-link {/* font-weight: bold; */margin-top: -24%;}
+
+ul.list-right {
+    padding-left: 92px;
+}
+
+.list {
+    display: flex;
+    padding-top: 59px;
+}
+
+.footer {
+    width: 100%;
+    background-color: #f7f7f9;
+    padding-top: 10px;
+    margin-top: 10%;
+}
+
+.learn-more {
+    margin: 10px 50px;
+    margin-top: 0%;
+    /* display: flex; */
+}
+
+
+
+
+
+.logo-be {
+    width: 10%;
+    margin-top: -40%;
+}
+
+
+
+.end {
+    width: 50%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    justify-content: center;
+    /* background-color: #f7f7f9; */
+}
+
+.main {
+    width: 100%;
+}
+
 img.img-left {
     width: 50%;
 }
@@ -12,6 +77,19 @@ h3 {
     font-size: 14px;
     font-weight: 300;
     text-align: left;
+}
+
+h3.text1 {
+    text-align: center;
+    width: 33.33%;
+    margin: auto;
+    padding-top: 50px;
+}
+h3.text2{
+    text-align: center;
+    width: 33.33%;
+    margin: auto;
+    padding-top: 25px;
 }
 
 
@@ -48,9 +126,6 @@ h1.heading {
     padding: 100px 0 50px;
 }
 
-h1.heading {
-    /* text-align: center; */
-}
 
 i.fa.fa-question-circle-o {
     font-size: 20px;
@@ -116,4 +191,10 @@ body,html{height: 100%;}
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 30px;
+}
+ul.list-left li.items a,ul.list-right li.items a,ul.list-useful li.item a {
+    color: #444;
+}
+li{
+    list-style: none;
 }
