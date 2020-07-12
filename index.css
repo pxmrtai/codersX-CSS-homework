@@ -369,6 +369,7 @@ h3.text2{
 h2.heading {
     text-align: center;
     color: white;
+    z-index: 0;
     padding: 100px;
 }
 
@@ -425,6 +426,7 @@ b {
     width: 100%;
     display: flex;
     color: white;
+    z-index: 10;
     justify-content: center;
     list-style: none;
     text-decoration: none;
@@ -435,6 +437,7 @@ b {
     display: flex;
     text-align: center;
     color: white;
+    z-index: 10;
     padding: 10px;
     background-color: #09080e;
 }
@@ -464,4 +467,26 @@ ul.list-left li.items a,ul.list-right li.items a,ul.list-useful li.item a {
 li{
     list-style: none;
 }
+
+li.has-submenu {
+}
 .head{width: 100%; height: 100%;}
+.submenu{
+    list-style: none;
+    padding: 0;
+    position: absolute;
+    display: none;
+    left: 0;
+    top: 100%;
+    z-index: 99;
+    width: 100%;
+    background-color: #09080e;
+    transition: 0.4;
+}
+.has-submenu:hover .submenu{
+    list-style: none;
+    padding: 0;
+    position: absolute;
+    display: block;
+
+}
