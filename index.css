@@ -1,5 +1,110 @@
 *{margin: 0;    padding: 0; font-family: Arial, Helvetica, sans-serif;}
 
+.source p {
+    font-size: 10px;
+    margin-bottom: 30%;
+}
+
+p img {
+    width: 20%;
+}
+
+
+
+.source {
+    width: 18%;
+    margin: auto;
+    text-align: center;
+    margin-top: 2%;
+}
+
+.title-problem {
+    width: 50%;
+    font-size: 20px;
+    margin-left: 5%;
+}
+
+.problems img {
+    width: 25%;
+}
+
+.problems {
+    display: flex;
+    margin: auto;
+    margin-bottom: 6%;
+    align-items: center;
+}
+
+.info-problem {
+    width: 32%;
+    /* display: flex; */
+    /* margin-bottom: 10%; */
+    margin: auto;
+    margin-bottom: 10%;
+}
+
+.heading-shop {
+    width: 40%;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 3%;
+}
+.shop-photo-1{
+    background-image: url("https://images5.alphacoders.com/321/321303.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 50%;
+    height: 100%;
+    background-position: center;
+    margin: auto;
+    margin-bottom: 5%;
+}
+
+.shop-boxes img {
+    height: 80px;
+    width: auto;
+}
+
+.shop-boxes {
+    width: 10%;
+    margin: 0 auto;
+}
+
+.shop-box {
+    /* box-sizing: border-box; */
+    width: 50%;
+    margin: auto;
+    margin-bottom: 5%;
+    display: flex;
+}
+
+.button-shop {
+    width: 200px;
+    margin: auto;
+    margin-bottom: 5%;
+}
+
+.button-shop {}
+
+input[type="button"] {
+    width: 200px;
+    background-color: #f0f0f2;
+    color: #07070A;
+    border: none;
+    padding: 7px;
+    border-radius: 6px;
+    
+}
+
+input.button-shop {
+    width: 200px;
+    background-color: #f0f0f2;
+    color: #07070A;
+    border: none;
+    padding: 4px;
+    /* margin: auto; */
+}
+
 .wrappers {
     margin-bottom: 10%;
 }
@@ -94,6 +199,10 @@ h2.title-first-box {
     color: #131624;
     line-height: 19px;
     margin-top: 12px;
+}
+
+.shop-boxes .content {
+    text-align: center;
 }
 
 .box-container .content {
@@ -197,6 +306,9 @@ ul.list-right {
     justify-content: center;
   
 }
+#navbar{
+    position: fixed;;
+}
 
 .main {
     width: 100%;
@@ -257,6 +369,7 @@ h3.text2{
 h2.heading {
     text-align: center;
     color: white;
+    padding: 100px;
 }
 
 h3.subheading {
@@ -275,12 +388,17 @@ h1.heading {
 i.fa.fa-question-circle-o {
     font-size: 20px;
     padding: 10px 50px;
+    flex-grow: 1;
 }
 
 a {
     color: white;
     text-decoration: none;
    
+}
+
+.title-problem a {
+    color: #0089f7;
 }
 
 li {
@@ -293,6 +411,7 @@ li {
 
 .logo-beTheme {
     font-size: 20px;
+    flex-grow: 1;
     padding: 10px;
 }
 
@@ -302,12 +421,14 @@ b {
 }
 
 .main-menu {
-    flex-grow: 1;
+    /* flex-grow: 1; */
+    width: 100%;
     display: flex;
     color: white;
     justify-content: center;
     list-style: none;
     text-decoration: none;
+    position: fixed;
 }
 
 .menu-top {
